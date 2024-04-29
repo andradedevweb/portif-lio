@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <title>Portifólio</title>
     <style type="text/css">
         body{
@@ -32,6 +31,7 @@
             transition: 0.5s;
         }
         button{
+       		margin-top: 2%;
             margin-left: 1%;
             color: white;
             border: solid 1px white;
@@ -54,6 +54,9 @@
         	transition: 0.5s;
             transform: scale(1.2)
         }
+        a{
+       		color: white;
+        }
         h2{
             margin-top: 5%;
         }
@@ -65,15 +68,12 @@
             text-align: center;
             color: white;
             text-decoration: none;
-            font-family: sans-serif;
             border-top: 10%;
         }
         .imagens{
             width: 40%;
         }
-        .icon{
-            width: 5%;
-        }
+
         ::-webkit-scrollbar-track {
             background-color: rgb(0, 0, 0);
         }
@@ -93,20 +93,31 @@
     <img src="imgs/image.jpeg" class="perfil">
 
     <center>
-        <a href="https://www.linkedin.com/in/gabriel-andrade-272801202/" target="_blank"><button class="linkedin">Linkedin</button></a>
-        <a href="https://github.com/andradedevweb" target="_blank"><button class="github">GitHub</button></a>
-        <a href="https://api.whatsapp.com/send?phone=5565984665418&text=Converse%20com%20Gabriel%20Andrade%20por%20esse%20link!" target="_blank"><button class="whatsapp">WhatsApp</button></a>
-        <a href="Gabriel Andrade Cunha - Curriculo.pdf" target="_blank"><button class="curriculo">Curriculo</button></a><br><br>
-
-        <h3>Técnologias</h3>
-        <img class="icon" height="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-        <img class="icon" height="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
-        <img class="icon" height="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-        <img class="icon" height="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-        <img class="icon" height="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-        
+	    <a href="https://www.linkedin.com/in/gabriel-andrade-272801202/" target="_blank"><button>Linkedin</button></a>
+	    <a href="https://github.com/andradedevweb" target="_blank"><button>GitHub</button></a>
+	    <a href="https://api.whatsapp.com/send?phone=5565984665418&text=Converse%20com%20Gabriel%20Andrade%20por%20esse%20link!" target="_blank"><button>WhatsApp</button></a>
+	    <a href="Gabriel Andrade Cunha - Curriculo.pdf" target="_blank"><button>Curriculo</button></a>
     </center>
     
+    <div class="Box">
+    	<center><h2>Habilidades com</h2></center>
+	    <a href="https://www.php.net/" target="_blank"><button>PHP</button></a>
+	    <a href="https://www.python.org/" target="_blank"><button>Python</button></a>
+	    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><button>Javascript</button></a>
+	    <a href="https://nodejs.org/en/" target="_blank"><button>Noje.js</button></a>
+	    <a href="https://numpy.org/" target="_blank"><button>NumPy</button></a>
+	    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><button>HTML</button></a>
+	    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><button>CSS</button></a>
+	    <a href="https://www.mysql.com/" target="_blank"><button>MySql</button></a>
+	    <a href="https://getbootstrap.com/" target="_blank"><button>Bootstrap</button></a>
+	    <a href="https://laravel.com/" target="_blank"><button>Laravel</button></a>
+	    <a href="https://react.dev/" target="_blank"><button>React</button></a>
+	    <a href="https://github.com/" target="_blank"><button>Git/Github</button></a>
+	    <a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos" target="_blank"><button>POO</button></a>
+	    <a href="https://pt.wikipedia.org/wiki/MVC" target="_blank"><button>MVC</button></a>
+	    <a href="https://pt.wikipedia.org/wiki/Linux" target="_blank"><button>Linux</button></a>
+	    <a href="https://www.docker.com/" target="_blank"><button>Docker</button></a>
+    </div>
     
     <center>
     <div class="Box">
@@ -120,8 +131,8 @@
     <div class="Box">
     <a href="https://mymp3repositorio.000webhostapp.com/" target="_blank" class="projetos">
         <center>
-            <label><h3>MyMp3</h3>
-            <p>Este é meu repositório online de musicas, um projeto q desenvolvi para q pudesse escultar meus artistas favoritos separados por playlists enquanto programo.</p></label>
+            <label><h3>MyMp3 (2024)</h3>
+            <p>Este é meu repositório online de musicas, um projeto q desenvolvi para q pudesse escultar meus artistas favoritos separados por playlists enquanto programo, se deseja testar o upload de arquivos ultilize esse arquivo mp3 do repositório do projeto: <a href="https://github.com/andradedevweb/mymp3/blob/main/audio.mp3">clique aqui para acessar</a></p></label>
             <img src="https://raw.githubusercontent.com/andradedevweb/mymp3/main/fotodoprojeto.png" class="imagens">
         </center>
     </a>
@@ -129,30 +140,43 @@
     <div class="Box">
     <a href="https://andradedevweb.github.io/Basic-Pokedex-With-API/" target="_blank" class="projetos">
         <center>
-            <label><h3>Pokédex</h3>
+            <label><h3>Pokédex (2021)</h3>
             <p>Estou trabalhando neste projeto de uma Pokedex usando uma API externa, é um projeto de portfólio simples para demonstrar meu conhecimento no uso de API's externas.</p></label>
             <img src="https://user-images.githubusercontent.com/64712751/122775654-5cd05e00-d278-11eb-8e4d-a0feecbecc67.png" class="imagens">
         </center>
     </a>
     </div>
     <div class="Box">
-    <a href="http://sistemacadastro.rf.gd/" target="_blank" class="projetos">
-        <center>
-            <label><h3>Sistema de cadastro</h3>
-            <p>Um sistema de cadastro para praticar minhas habilidades em PHP processual, é possível inserir e deletar dados do usuário de um sistema mostrado na tela através de HTML</p></label>
-            <img src="https://raw.githubusercontent.com/andradedevweb/sistema_cadastro/main/imgs/sistema_cadastro.png" class="imagens">
-         </center>
-    </a>
-    </div>
-    <div class="Box">
     <a href="https://andradedevweb.github.io/Calculadora/" target="_blank" class="projetos">
         <center>
-            <label><h3>Calculadora</h3></label>
+            <label><h3>Calculadora (2022)</h3></label>
             <p>Uma calculadora em javascript que realiza as quatro operações matemáticas básicas. Ela possui em seu código três funções em javascript que realizam toda a lógica da aplicação.</p>
             <img src="https://raw.githubusercontent.com/andradedevweb/Calculadora/main/imgs/calculadora.png" class="imagens">
         </center>
     </a>
     </div>
+    <div class="Box">
+        <a href="http://sistemacadastro.rf.gd/" target="_blank" class="projetos">
+        <center>
+            <label><h3>Sistema de cadastro (2019)</h3>
+            <p>Um sistema de cadastro para praticar minhas habilidades em PHP processual, é possível inserir e deletar dados do usuário de um sistema mostrado na tela através de HTML</p></label>
+            <img src="https://raw.githubusercontent.com/andradedevweb/sistema_cadastro/main/imgs/sistema_cadastro.png" class="imagens">
+         </center>
+    </a>
+    </div>
+        <div class="Box">
+        <center>
+        <h3>Formações</h3
+        <a href="https://cba.ifmt.edu.br/curso/tecnologia-em-sistemas-para-internet-1-5/" target="_blank" class="projetos">
+            <label>-Graduação em sistemas pra internet - IFMT (2024-2026)</label><br><br>
+         </a>
+	<a href="https://cba.ifmt.edu.br/conteudo/pagina/cursoscampuscuiabaintegrado/" target="_blank" class="projetos">
+            <label>-Técnico em eletrônica integrado ao ensino médio - IFMT (2021-2023)</label><br><br>
+         </a>
+         <a href="https://pacotefullstack.com/master?gclid=Cj0KCQjwir2xBhC_ARIsAMTXk86DEhIJEPLNWAQK4aMhe5wHHBPjCY3tsnDXSW9mf2g4Bq1Z8fU1oasaAt_DEALw_wcB&ref=X23926843G&hsrc=YWRz" target="_blank" class="projetos">
+           <label>-Pacote Full Stack - Danki Code Cursos Online (2020-2024)</label><br><br>
+         </a>
+        </center>
 </div>
 </center>
 </body>
